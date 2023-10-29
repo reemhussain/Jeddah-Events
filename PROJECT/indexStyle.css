@@ -25,6 +25,7 @@ a{
 
 a:hover{
     background-color: #FFCD3C;
+    border-radius:20px;
 }
 
 /* styling the header*/
@@ -67,7 +68,7 @@ header{
     padding:0.5rem 1rem;
     border:none;
     outline:none;
-    border-radius:20px;
+  c
     font-size:0.8rem;
 
 
