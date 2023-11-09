@@ -1,0 +1,320 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#background2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(77, 21, 81, 0.5)), url(stars.png);
+    height: 600px;
+    background-blend-mode: screen;
+    margin-top: -50px;
+}
+
+#banner {
+
+    height: 70px;
+    width: 1400px;
+    margin-top: -5px;
+}
+
+.navbar {
+    background-image: linear-gradient(#e1addc, #ffd5e5);
+    border-style: double;
+    border-color: #a62671;
+    border-width: 5px;
+    text-align: center;
+
+}
+
+.navbar a,
+.navbar li {
+    text-decoration: none;
+    color: #810075;
+    list-style-type: none;
+    margin-right: 85px;
+    font-family: 'Lucida Handwriting';
+}
+
+#welcome {
+
+    font-family: 'Lucida Handwriting';
+    color: rgb(254, 0, 136);
+    text-shadow: 1.5px 1.5px gray;
+    background-color: rgba(255, 240, 245, 0.808);
+    border: 5px double lavender;
+    display: inline-block;
+    padding: 1%;
+    margin-top: 100px;
+    margin-left: 500px;
+    border-radius: 5px;
+}
+
+#Laila {
+    height: 250px;
+    width: 180px;
+    float: left;
+}
+
+
+#intromyself {
+    text-align: center;
+    font-family: 'Lucida Handwriting';
+    color: rgb(252, 82, 184);
+    font-size: large;
+    background-color: rgba(173, 216, 230, 0.818);
+    border: 5px double lightyellow;
+    padding: -5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#me {
+    display: grid;
+    grid: 100px / auto auto auto;
+    grid-gap: 5px;
+    margin-top: 50px;
+}
+
+#container {
+    display: grid;
+    padding: 5%;
+    grid-template-columns: auto auto auto;
+    font-family: 'Lucida Handwriting';
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+#aboutme {
+    text-align: center;
+    font-family: 'Lucida Handwriting';
+    color: rgb(40, 198, 203);
+    border: 3px double rgb(240, 248, 255);
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.705);
+}
+
+#edu {
+    border-left: 10px solid #6643b5;
+    border-radius: 5px;
+    color: #430f58;
+    background-image: linear-gradient(#d5def5, #8594e4);
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#skills {
+    border-left: 10px solid #34495e;
+    border-radius: 5px;
+    color: #424874;
+    background-image: linear-gradient(#e4f1fe, #8dc6ff);
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#hobnint {
+    border-left: 10px solid #a6b1e1;
+    border-radius: 5px;
+    color: #424874;
+    background-image: linear-gradient(#f4eeff, #dcd6f7);
+    padding: 5px;
+}
+
+#work {
+    text-align: center;
+    font-family: 'Lucida Handwriting';
+    color: rgb(40, 198, 203);
+    border: 3px double rgb(240, 248, 255);
+    border-radius: 5px;
+    background-color: rgba(240, 248, 255, 0.705);
+}
+
+#projnassign {
+    border: 5px groove gold;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    font-family: 'Lucida Handwriting';
+
+}
+
+#swArc {
+    border-radius: 5px;
+    background-image: url(bloom.jpg);
+    background-size: cover;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#swArc h2,
+#swArc figcaption {
+
+    color: rgb(1, 132, 213);
+    background-color: rgba(255, 217, 0, 0.506);
+    border-radius: 5px;
+}
+
+#swTest {
+    border-radius: 5px;
+    background-image: url(stella.jpg);
+    background-size: cover;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#swTest h2,
+#swTest figcaption {
+
+    color: rgb(255, 106, 0);
+    background-color: rgba(255, 182, 193, 0.506);
+    border-radius: 5px;
+}
+
+#webDev {
+    border-radius: 5px;
+    background-image: url(flora.jpg);
+    background-size: cover;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#webDev h2,
+#webDev figcaption {
+
+    color: green;
+    background-color: rgba(216, 137, 163, 0.506);
+    border-radius: 5px;
+}
+
+#hci {
+    border-radius: 5px;
+    background-image: url(musa.jpg);
+    background-size: cover;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#hci h2,
+#hci figcaption {
+
+    color: crimson;
+    background-color: rgba(135, 206, 250, 0.506);
+    border-radius: 5px;
+}
+
+#db {
+    border-radius: 5px;
+    background-image: url(tecna.jpg);
+    background-size: cover;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#db h2,
+#db figcaption {
+
+    color: mediumpurple;
+    background-color: rgba(126, 252, 0, 0.506);
+    border-radius: 5px;
+}
+
+#swEng {
+    border-radius: 5px;
+    background-image: url(aisha.jpg);
+    background-size: cover;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#swEng h2,
+#swEng figcaption {
+
+    color: greenyellow;
+    background-color: rgba(128, 128, 128, 0.506);
+    border-radius: 5px;
+    margin: 3px;
+}
+
+#more {
+    text-decoration: underline;
+    color: aqua;
+    font-size: large;
+}
+
+#contacts {
+    border: 10px dotted #a62671;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Lucida Handwriting';
+    font-size: larger;
+    color: cornflowerblue;
+    margin: 50px 300px 0px 300px;
+    background-color: rgba(240, 248, 255, 0.59);
+}
+
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.231), rgba(0, 0, 0, 0.236)), url(enchantix-banner.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 600;
+    background-size: contain;
+    position: relative;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        width: 768;
+    }
+
+    .navbar {
+
+        size: inherit;
+        height: fit-content;
+        width: auto;
+
+    }
+
+    p {
+
+        font-size: smaller;
+        background-size: contain;
+    }
+
+    #aboutme {
+        position: relative;
+        size: 50%;
+        font-size: 20pt;
+    }
+
+    footer {
+        background-position: bottom;
+    }
+
+    img {
+        position: relative;
+        max-width: auto;
+    }
+}
+
+@media screen and (max-width:576px) {
+    body {
+        width: auto;
+        height: auto;
+    }
+
+    #laila {
+        position: relative;
+        width: auto;
+    }
+
+    #aboutme {
+        position: relative;
+        size: 30%;
+    }
+
+    footer {
+        background-position: bottom;
+    }
+
+
+}
