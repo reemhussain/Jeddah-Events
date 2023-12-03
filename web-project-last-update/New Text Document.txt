@@ -1,0 +1,11 @@
+width:
+Extra small devices Phones (<768px)
+Small devices Tablets (≥768px)
+Medium devices Desktops (≥992px)
+Large devices Desktops (≥1200px)
+
+height:
+Extra small devices Phones (<640px)
+Small devices Tablets (≥640px)
+Medium devices Desktops (≥820px)
+Large devices Desktops (≥900px)
