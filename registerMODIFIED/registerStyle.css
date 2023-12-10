@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: #000;
+    background-image:linear-gradient(#442037, #2D2B49, #1E0F3C);
+    background-size:cover;
+    background-position:center;
+  }
+
+  .NEW{
+    background-image: linear-gradient(#442037, #2D2B49, #1E0F3C);
+    background-size: cover;
+    background-position: 0px -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    color:aliceblue
+}
+
+li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  a:hover {
+    color: orange;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  a:hover {
+    color: orange;
+  }
+  /* HEADER */
+  header {
+    position: relative;
+    padding: 0 2rem;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar .links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .navbar .toggle_btn {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+  }
+  
+  .action_btn {
+    background-color: orange;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+  }
+  
+  .action_btn:hover {
+    scale: 1.05;
+    color: #fff;
+  }
+  
+  .action_btn:active {
+    scale: 0.95;
+  }
+  
+  /* DROPDOWN MENU */
+  .dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    height: 0;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .dropdown_menu.open {
+    height: 240px;
+  }
+  
+  .dropdown_menu li {
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dropdown_menu .action_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* RESPONSIVE DESIGN */
+@media (max-width: 992px) {
+    .navbar .links,
+    .navbar .action_btn {
+      display: none;
+      text-align: center;
+    }
+  
+    .navbar .toggle_btn {
+      display: block;
+      text-align: center;
+    }
+  
+    .dropdown_menu {
+      display: block;
+      text-align: center;
+    }
+  
+    .countdown{
+      margin: -28%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .dropdown_menu {
+      left: 2rem;
+      width: unset;
+      text-align: center;
+    }
+  }
+  .header {
+    left: 250px;
+    top: 176px;
+    position: absolute;
+    color: white;
+    font-size: 65px;
+    font-weight: 400;
+    word-break: break-word;
+    display: block;
+}
+
+   
+footer {
+    display: block;
+    color: whitesmoke;
+    font-size: small;
+    text-align: center;
+    bottom: 0;
+   position:absolute;
+    width: 100%;
+    left: 0;
+  }
+  
+  .Form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    backdrop-filter: blur(40px);
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform .6s ease, height .2s ease-in-out;
+}
+.Form-box form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all .5s ease;
+}
+.Form-box .Register-form{
+    transform: translateX(-100%);
+}
+.input-box{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 2px solid white;
+    margin: 40px 0px;
+}
+.Register-form .input-box{
+    margin: 30px 0px;
+}
+.input-box input{
+    width: 90%;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.input-box label{
+    transition: .4s;
+}
+.input-box input:focus ~ label,
+.input-box input:valid ~ label{
+    transform: translateY(-25px);
+}
+.input-box ion-icon{
+    font-size: 25px;
+}
+.checkbox{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Register-form .checkbox{
+    display: unset;
+}
+.submit-btn{
+    width: 80%;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 20px 0px;
+    border: none;
+    font-size: 16px;
+}
+.Form-box h5,
+.checkbox label,
+.checkbox input{
+    cursor: pointer;
+}
+.change-form{
+    height: 500px;
+}
+.change-form .Login-form{
+    transform: translateX(100%);
+}
+.change-form .Register-form{
+    transform: translateX(0%);
+}
